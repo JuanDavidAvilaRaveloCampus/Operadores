@@ -1,12 +1,13 @@
 // OPERADORES ANS
 let tabla = {
     "NOMBRE" : "DESCRIPCIÓN",
-    "Math.pow(base(base,exp)" : "Retorna la base elevada al exponente "
+    "Math.ceil(x)" : "Redondea un número hacia arriba hasta el número entero más próximo y devuelve el resultado. Si el argumento pasado es un numero entero, no redondeará el valor.",
+    "Math.floor(x)" : "Redondea un número hacia abajo hasta el número entero más próximo y devuelve el resultado. Si el argumento pasado es un numero entero, no redondeará el valor."
 };
 console.table(tabla);
 
 // EJEMPLO
-console.log("Ejemplo con Math.pow()...\nHallando el número mayor de 1-10\nEste número es: " + Math.pow(2,2));
+console.log("Ejemplo con Math.ceil()...Redondeando un número hacia arriba. Siendo N = 1.4, entonces Math.ceil(N) = " + Math.ceil(1.4));
 
 // EJEMPLO 2
-console.log("Ejemplo 2 con Math.pow()...\nHallando el número mayor de 1-10\nEste número es: " + Math.pow(2,8));
+console.log("Ejemplo 2 con Math.floor()...Redondeando un número hacia abajo. Siendo N = 5.9, entonces Math.floor(N) = " + Math.floor(5.9));
